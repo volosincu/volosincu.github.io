@@ -71,11 +71,15 @@ body {
 
 ._content .menu ul li{
     padding: 5px 0px;
+    display: initial;
+    padding-right: 53px;
+
     
 }
 
 ._content .menu ul li a {
-    font-size: 1.4em;
+    color: #383838; 
+    font-size: 1.5em;
     cursor : pointer;
     text-decoration: underline;
     
@@ -84,7 +88,7 @@ body {
 ._content .menu ul li a:hover,
 ._content .menu ul li a:visited,
 ._content .menu ul li a:active {
-    color: #686868; 
+    color: #383838; 
     
 }
 
@@ -94,6 +98,7 @@ body {
 }
 
 ._content img {
+    opacity: 0.7;
     padding-top: 87px;
 }
 
