@@ -1,0 +1,168 @@
+
+
+    html * {
+        padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      }
+
+      html {
+         height: 100%;
+      }
+
+      
+      
+      #volo {
+         height : 100%;
+         background-color : #FFF;
+      }
+
+
+      ._title h1 {
+
+      color: #464646;
+
+
+      padding-bottom: 10px;
+      border-bottom: 1px solid #bbb;
+      box-sizing: border-box;
+      margin-right: 0.5%;
+      width: 440px;
+      }
+
+      ._content {
+      height: 53%;
+      width: 53%;
+      margin: auto;
+      margin-bottom: 8%;
+      border-left: 1px solid #ddd;
+      padding-left: 3%;
+
+      top: 13%;
+      position: relative;
+
+
+      }
+
+      .menu {
+	  padding-top: 3%;
+          display: inline-block;
+
+      }
+
+      ._content .menu ul {
+          list-style-type: none;
+
+      }
+
+      ._content .menu ul li{
+        padding: 5px 0px;
+      
+      }
+
+
+      ._content .menu ul li a{
+        text-decoration: none;
+
+      }
+
+      
+      ._content .menu ul li a:hover{
+      cursor : pointer;
+      text-decoration: underline;
+      
+      }
+
+
+      .banner {
+      width : 114%;
+      position: fixed;
+      
+      }
+
+
+      
+      ._content .banner ._alk{
+      background-image: url("bg.png");
+      height: 70px;
+      width: 100%;
+      margin: auto;
+      background-size: 720px 100%;
+      background-repeat: repeat-x;
+
+      }
+
+      .w1 {
+        width: 1%;
+      }
+
+      .w2 {
+        width: 2%;
+      }
+
+      .w3 {
+        width: 3%;
+      }
+
+      .w5 {
+        width: 5%;
+      }
+
+      .w8 {
+        width: 8%;
+      }
+
+      .w13 {
+        width: 13%;
+      }
+
+      .w21 {
+        width: 21%;
+      }
+
+      .w34 {
+        width: 34%;
+      }
+
+
+      .color {
+        height: 8px;
+        display: inline-block;
+        float: left;
+      }
+
+      .cl1 {
+        background-color: #C42A1F ;
+      }
+
+      .cl2 {
+        background-color: orange ;
+      }
+
+      .cl3 {
+        background-color: #4286B3 ;
+      }
+
+      .cl4 {
+        background-color: #00B86B; /*green*/
+      }
+
+      .cl5 {
+        background-color: #9EE3F7;
+      }
+
+      .cl6 {
+        background-color: yellow ;
+      }
+
+      .cl7 {
+          background-color: #E6B1FA ;
+      }
+
+      .cl8 {
+          background-color: black ;
+      }
+      
+
