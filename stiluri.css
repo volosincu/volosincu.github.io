@@ -1,171 +1,172 @@
 
+html {
+    height: 100%;
 
-    html * {
-        padding: 0px;
-      margin: 0px;
-      box-sizing: border-box;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      }
+}
 
-      html {
-         height: 100%;
-      }
-
-      
-      
-      #volo {
-         height : 100%;
-         background-color : #FFF;
-      }
+html * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 
 
-      ._title h1 {
+body {
+    height : 100%;
+    font-size: 100%;
+    background-color : #FFF;
+}
 
-      color: #464646;
+.banner {
+    width : 114%;
+    position: fixed;
+    
+}
 
+._content {
 
-      padding-bottom: 10px;
-      border-bottom: 1px solid #bbb;
-      box-sizing: border-box;
-      margin-right: 0.5%;
-      width: 440px;
-      }
+    width: 53%;
+    margin: auto;
+    margin-bottom: 8%;
+    border-left: 1px solid #ddd;
+    padding-left: 8%;
+    top: 8%;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: 2%;
 
-      ._content {
+    
+}
 
-      width: 53%;
-      margin: auto;
-      margin-bottom: 8%;
-      border-left: 1px solid #ddd;
-      padding-left: 3%;
-      top: 13%;
-      position: relative;
-      padding-bottom: 5%;
-
-      }
-
-      .menu {
-
-	  padding-top: 2%;
-	  display: inline-block;
-	  padding-bottom: 2%;
-	  border-bottom: 1px solid #ccc;
-	  margin-bottom: 1%;
-	  width: 440px;
-      }
-
-      ._content .menu ul {
-          list-style-type: none;
-
-      }
-
-      ._content .menu ul li{
-        padding: 5px 0px;
-      
-      }
+._content ._title h1 {
+    color: #4286B3;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+    box-sizing: border-box;
+    margin-right: 0.5%;
+    width: 440px;
+}
 
 
-      ._content .menu ul li a{
-        text-decoration: none;
+._content ._title span {
+   /* color: #ccc;*/
+}
 
-      }
+._content .menu {
+    
+    padding-top: 2%;
+    display: inline-block;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1%;
+    width: 440px;
+}
 
-      
-      ._content .menu ul li a:hover{
-      cursor : pointer;
-      text-decoration: underline;
-      
-      }
+._content .menu ul {
+    list-style-type: none;
+    
+}
 
+._content .menu ul li{
+    padding: 5px 0px;
+    
+}
 
-      .banner {
-      width : 114%;
-      position: fixed;
-      
-      }
+._content .menu ul li a {
+    font-size: 1.4em;
+    cursor : pointer;
+    text-decoration: underline;
+    
+}
 
+._content .menu ul li a:hover,
+._content .menu ul li a:visited,
+._content .menu ul li a:active {
+    color: #686868; 
+    
+}
 
-      
-      ._content .banner ._alk{
-      background-image: url("bg.png");
-      height: 70px;
-      width: 100%;
-      margin: auto;
-      background-size: 720px 100%;
-      background-repeat: repeat-x;
+._content .menu ul li a:hover{
+    text-decoration: none;
+    
+}
 
-      }
-
-      .w1 {
-        width: 1%;
-      }
-
-      .w2 {
-        width: 2%;
-      }
-
-      .w3 {
-        width: 3%;
-      }
-
-      .w5 {
-        width: 5%;
-      }
-
-      .w8 {
-        width: 8%;
-      }
-
-      .w13 {
-        width: 13%;
-      }
-
-      .w21 {
-        width: 21%;
-      }
-
-      .w34 {
-        width: 34%;
-      }
+._content img {
+    padding-top: 87px;
+}
 
 
-      .color {
-        height: 8px;
-        display: inline-block;
-        float: left;
-      }
 
-      .cl1 {
-        background-color: #C42A1F ;
-      }
+.color {
+    height: 13px;
+    display: inline-block;
+    float: left;
+}
 
-      .cl2 {
-        background-color: orange ;
-      }
+.w1 {
+    width: 1%;
+}
 
-      .cl3 {
-        background-color: #4286B3 ;
-      }
+.w2 {
+    width: 2%;
+}
 
-      .cl4 {
-        background-color: #00B86B; /*green*/
-      }
+.w3 {
+    width: 3%;
+}
 
-      .cl5 {
-        background-color: #9EE3F7;
-      }
+.w5 {
+    width: 5%;
+}
 
-      .cl6 {
-        background-color: yellow ;
-      }
+.w8 {
+    width: 8%;
+}
 
-      .cl7 {
-          background-color: #E6B1FA ;
-      }
+.w13 {
+    width: 13%;
+}
 
-      .cl8 {
-          background-color: black ;
-      }
-      
+.w21 {
+    width: 21%;
+}
+
+.w34 {
+    width: 34%;
+}
+
+.cl1 {
+    background-color: #C42A1F ;
+}
+
+.cl2 {
+    background-color: orange ;
+}
+
+.cl3 {
+    background-color: #4286B3 ;
+}
+
+.cl4 {
+    background-color: #00B86B; /*green*/
+}
+
+.cl5 {
+    background-color: #9EE3F7;
+}
+
+.cl6 {
+    background-color: yellow ;
+}
+
+.cl7 {
+    background-color: #E6B1FA ;
+}
+
+.cl8 {
+    background-color: black ;
+}
+
 
