@@ -1,0 +1,76 @@
+
+.inline-block {
+    display: inline-block;
+}
+
+.color {
+    height: 13px;
+    display: inline-block;
+    float: left;
+}
+
+.w1 {
+    width: 1%;
+}
+
+.w2 {
+    width: 2%;
+}
+
+.w3 {
+    width: 3%;
+}
+
+.w5 {
+    width: 5%;
+}
+
+.w8 {
+    width: 8%;
+}
+
+.w13 {
+    width: 13%;
+}
+
+.w21 {
+    width: 21%;
+}
+
+.w34 {
+    width: 34%;
+}
+
+.cl1 {
+    background-color: #C42A1F ;
+}
+
+.cl2 {
+    background-color: orange ;
+}
+
+.cl3 {
+    background-color: #4286B3 ;
+}
+
+.cl4 {
+    background-color: #00B86B; /*green*/
+}
+
+.cl5 {
+    background-color: #9EE3F7;
+}
+
+.cl6 {
+    background-color: yellow ;
+}
+
+.cl7 {
+    background-color: #E6B1FA ;
+}
+
+.cl8 {
+    background-color: black ;
+}
+
+
